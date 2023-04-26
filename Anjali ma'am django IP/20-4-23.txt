@@ -1,0 +1,76 @@
+1. What is inheritance in Python?
+   Inheritance is a mechanism in Python that allows a class to inherit properties and behaviors from another class.
+
+2. What is the syntax for inheritance in Python?
+   The syntax for inheritance in Python is as follows:
+
+	class ChildClass(ParentClass):
+
+3. What is a parent class in Python?
+   A parent class is the class from which another class inherits properties and behaviors.
+
+4. What is a child class in Python?
+   A child class is the class that inherits properties and behaviors from a parent class.
+
+5. What is method overriding in Python?
+   Method overriding is the process of redefining a method in a child class that was already defined in the parent class.
+
+6. How do you call a method from a parent class in Python?
+   To call a method from a parent class in Python, you can use the super() function.
+
+	super().method_name()
+
+7. What is the init method in Python?
+   The init method is a special method in Python that is called when an object of a class is created.
+
+8. How do you override the init method in a child class?
+   To override the init method in a child class, you can define a new init method in the child class.
+
+9. What is multiple inheritance in Python?
+   Multiple inheritance is a feature in Python that allows a class to inherit properties and behaviors from more than one    parent class.
+
+10. What is the order of method resolution in Python?
+    The order of method resolution in Python is determined by the Method Resolution Order (MRO), which is a linear ordering     of the inheritance hierarchy.
+
+11. How do you access a method defined in a specific parent class in Python?
+    To access a method defined in a specific parent class in Python, you can use the following syntax:
+
+	ParentClass.method_name(self) 
+
+12. What is the isinstance() function in Python?
+    The isinstance() function in Python is used to check if an object is an instance of a particular class.
+
+13. What is the issubclass() function in Python?
+    The issubclass() function in Python is used to check if a class is a subclass of another class.
+
+14. What is a base class in Python?
+    A base class is the most basic class in an inheritance hierarchy.
+
+15. What is a derived class in Python?
+    A derived class is a class that is derived from a base class.
+
+16. What is the difference between public, private, and protected attributes in Python?
+    In Python, public attributes are accessible from anywhere, private attributes are only accessible within the class, and     protected attributes are accessible within the class and its subclasses.
+
+17. How do you define a private attribute in Python?
+    To define a private attribute in Python, you can use the double underscore prefix before the attribute name.
+
+	class MyClass:
+  	  def __init__(self):
+  	      self.__private_attr = 10
+
+18. How do you define a protected attribute in Python?
+    To define a protected attribute in Python, you can use the single underscore prefix before the attribute name.
+
+	class MyClass:
+	    def __init__(self):
+	        self._protected_attr = 10
+
+19. How do you access a private attribute in Python?
+To access a private attribute in Python, you can use the following syntax:
+
+	object._ClassName__private_attr
+
+
+20. How do you access a protected attribute in Python?
+    To access a protected attribute in Python, you can access it directly using the object.
